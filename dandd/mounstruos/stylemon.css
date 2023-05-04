@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica Now", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(9, 9, 28);
+}
+body header nav {
+  font-size: 1.1rem;
+  min-height: 50px;
+  background-color: rgb(197, 55, 55);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav .textos {
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+}
+body header nav .iconos {
+  display: flex;
+  margin-right: 10px;
+}
+body header .carousel-inner .imgc {
+  max-height: 700px;
+  margin: auto;
+}
+body main aside {
+  background-color: rgb(18, 3, 38);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+}
+body main aside .btn-aside {
+  background-color: darkgray;
+  width: 100px;
+  border-radius: 100vmax;
+  height: 2.7rem;
+  width: 8rem;
+  align-self: center;
+  margin: auto;
+  text-align: center;
+  font-size: 1.2rem;
+}
+body main aside .btn-aside:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 2rem rgba(229, 5, 5, 0);
+}
+body main .container #contenedor {
+  gap: 5rem;
+}
+body main .container #contenedor .caja {
+  background-color: gainsboro;
+  margin: 10px;
+  border-radius: 1rem;
+  min-width: 150px;
+  max-width: 100%;
+}
+body main .container #contenedor .caja .card-body {
+  padding: 10px;
+  padding: 2rem 4rem;
+  align-items: center;
+  max-width: 100%;
+}
+body main .container #contenedor .caja .card-body .divImagen {
+  justify-content: center;
+  align-items: center;
+}
+body main .container #contenedor .caja .card-body .divImagen .imagen {
+  border-radius: 10px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body main .container #contenedor .caja .card-body .parrafos {
+  margin-top: 25px;
+  line-height: 0.6;
+}
+body main .container #contenedor .caja .card-body .parrafos .desc {
+  font-size: 1.1rem;
+  margin-top: -3px;
+}
+body main .container #contenedor .caja .card-body .titulo {
+  color: rgb(17, 0, 255);
+  font-size: 1.9rem;
+  margin-bottom: 10px;
+}
+body footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: gainsboro;
+}
+body footer .enlaces {
+  justify-content: center;
+}
+body .p {
+  margin: auto;
+}
+body .informaciones {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}/*# sourceMappingURL=stylemon.css.map */

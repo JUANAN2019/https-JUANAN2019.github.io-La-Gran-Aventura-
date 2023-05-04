@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: rgb(9, 9, 28);
+}
+body header nav {
+  font-size: 1.1rem;
+  min-height: 50px;
+  background-color: rgb(197, 55, 55);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header nav .textos {
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+}
+body header nav .iconos {
+  display: flex;
+  margin-right: 10px;
+}
+body main .contenido {
+  margin: auto;
+}
+body main .contenido .container .img3 {
+  display: flex;
+}
+body main .contenido .container .img3 .imgp img {
+  max-height: width;
+}
+body main aside {
+  background-color: rgb(18, 3, 38);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 5px;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+}
+body main aside .btn-aside {
+  background-color: darkgray;
+  width: 100px;
+  border-radius: 100vmax;
+  height: 30px;
+  align-self: center;
+  margin: auto;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  color: gainsboro;
+}
+footer .enlaces {
+  justify-content: center;
+}
+
+.p {
+  margin: auto;
+}
+
+.informaciones {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: center;
+}/*# sourceMappingURL=style.css.map */
