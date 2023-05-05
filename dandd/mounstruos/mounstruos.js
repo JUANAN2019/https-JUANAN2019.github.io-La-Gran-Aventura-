@@ -1,8 +1,7 @@
 let botonR=document.getElementById("razas").addEventListener("click",redireccion);
-const linkGeneral = "https://api.open5e.com";
+
 const linkrazas = "https://api.open5e.com/monsters/";
-// let data="";
-// const razas=data.results;
+
 const peticion = () => {
     
 

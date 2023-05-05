@@ -45,12 +45,11 @@ body main aside .btn-aside {
   background-color: darkgray;
   width: 100px;
   border-radius: 100vmax;
-  height: 2.7rem;
-  width: 8rem;
-  align-self: center;
+  height: 2.5rem;
+  width: 8.5rem;
   margin: auto;
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 body main aside .btn-aside:hover {
   transform: scale(1.2);
@@ -71,18 +70,23 @@ body main .container #contenedor .caja .card-body {
   padding: 2rem 4rem;
   align-items: center;
   max-width: 100%;
+  max-height: 100%;
 }
 body main .container #contenedor .caja .card-body .divImagen {
   justify-content: center;
   align-items: center;
+  max-width: 100%;
+  max-height: 100%;
 }
 body main .container #contenedor .caja .card-body .divImagen .imagen {
   border-radius: 10px;
+  width: 100%;
+  height: 80%;
   -o-object-fit: cover;
      object-fit: cover;
 }
 body main .container #contenedor .caja .card-body .parrafos {
-  margin-top: 25px;
+  margin-top: 20px;
   line-height: 0.6;
 }
 body main .container #contenedor .caja .card-body .parrafos .desc {

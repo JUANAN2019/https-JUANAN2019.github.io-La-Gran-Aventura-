@@ -1,4 +1,4 @@
-let botonM=document.getElementById("monster").addEventListener("click",redireccion);
+let botonM=document.getElementById("monster").addEventListener("click",re);
 
 const linkGeneral = "https://api.open5e.com";
 const linkrazas = "https://api.open5e.com/races/";   
@@ -45,7 +45,7 @@ const peticion = () => {
 
 }
 
- function redireccion(){
+ function re(){
     window.location.href="../mounstruos/mounstruos.html";
 }
 

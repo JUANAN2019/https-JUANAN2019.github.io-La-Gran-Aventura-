@@ -14,108 +14,119 @@ body {
     min-height: 100vh;
     background-color: rgb(9, 9, 28);
 
-    header{
-        nav{
-            font-size:1.1rem;
+    header {
+        nav {
+            font-size: 1.1rem;
             min-height: 50px;
-            background-color:rgb(197, 55, 55);
-            display:flex;
+            background-color: rgb(197, 55, 55);
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            
-            .textos{
-                display:flex;
-                gap:15px;
+
+            .textos {
+                display: flex;
+                gap: 15px;
                 margin-left: 10px;
-                
+
             }
-            .iconos{
-                display:flex;
+
+            .iconos {
+                display: flex;
                 margin-right: 10px;
             }
-        } 
-        
-        .carousel-inner{
-            
-            .imgc{
+        }
+
+        .carousel-inner {
+
+            .imgc {
                 max-height: 700px;
-               
+
                 margin: auto;
-                
+
             }
         }
-        
+
     }
+
     main {
-            aside {
-                background-color: rgb(18, 3, 38);
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
-                gap: 5px;
-                position: sticky;
-                top: 0px;
-                width: 100%;
-                z-index: 10;
+        aside {
+            background-color: rgb(18, 3, 38);
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 5px;
+            position: sticky;
+            top: 0px;
+            width: 100%;
+            z-index: 10;
+
+
+
+
+            .btn-aside {
+                background-color: darkgray;
+                width: $anchoBase;
+                border-radius: 100vmax;
+                height: 2.5rem;
+                width: 8.5rem;
                 
+                margin: auto;
+                text-align: center;
+                font-size: 1.3rem;
 
 
-
-                .btn-aside {
-                    background-color: darkgray;
-                    width: $anchoBase;
-                    border-radius: 100vmax;
-                    height: 2.7rem;
-                    width: 8rem;
-                    align-self: center;
-                    margin: auto;
-                    text-align: center;
-                    font-size: 1.2rem;
-                    
-                    
-                    
-                }
-
-                .btn-aside:hover {
-                    transform: scale(1.2);
-                    box-shadow: 0 0 2rem rgba(229, 5, 5, 0);
-                }
 
             }
 
+            .btn-aside:hover {
+                transform: scale(1.2);
+                box-shadow: 0 0 2rem rgba(229, 5, 5, 0);
+            }
 
-            .container {
-                
+        }
 
-                #contenedor {
-                   gap: 5rem;
 
-                    .caja {
-                        background-color: gainsboro;
-                        margin: 10px;
-                        border-radius: 1rem;
-                        min-width: 150px;
+        .container {
+
+
+            #contenedor {
+                gap: 5rem;
+
+                .caja {
+                    background-color: gainsboro;
+                    margin: 10px;
+                    border-radius: 1rem;
+                    min-width: 150px;
+                    max-width: 100%;
+
+                    .card-body {
+                        padding: 10px;
+                        padding: 2rem 4rem;
+                        align-items: center;
                         max-width: 100%;
+                        max-height: 100%;
 
-                        .card-body {
-                            padding: 10px;
-                            padding: 2rem 4rem;
+
+                        .divImagen {
+                            justify-content: center;
                             align-items: center;
                             max-width: 100%;
-                            .divImagen {
-                                justify-content: center;
-                                align-items: center;
-                                .imagen {
-                                    border-radius: 10px;
-                                    object-fit: cover;
-                        
+                            max-height: 100%;
 
-                                }
+                            
+
+                            .imagen {
+                                border-radius: 10px;
+                                width: 100%;
+                                height: 80%;
+                                object-fit: cover;
+
+
                             }
-
+                        }
                             .parrafos {
-                                margin-top: 25px;
+                               margin-top: 20px;
                                 line-height: .6;
-                                
+
 
                                 .desc {
                                     font-size: 1.1rem;
@@ -124,14 +135,12 @@ body {
                             }
 
                             .titulo {
+                                //color: rgb(17, 0, 255);
                                 color: rgb(17, 0, 255);
                                 font-size: 1.9rem;
                                 margin-bottom: 10px;
                             }
-                        }
-
-
-
+                        
 
                     }
                 }
@@ -139,26 +148,28 @@ body {
 
 
         }
-    footer{
-        background-color: black;
-        display: flex;
-        flex-direction: column;
-        color: gainsboro;
+    }
+        footer {
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            color: gainsboro;
 
-        .enlaces{
-           justify-content: center;
-           
-           }
+            .enlaces {
+                justify-content: center;
+
+            }
         }
-        .p{
+
+        .p {
             margin: auto;
-            
+
         }
-        .informaciones{
-            display:flex;
+
+        .informaciones {
+            display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
             text-align: center;
         }
     }
-   

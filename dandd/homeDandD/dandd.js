@@ -1,19 +1,9 @@
-const listaMenu=document.querySelector(".manual");
-const url="https://open5e.com/races";
-const cabecera={ 
-    //method: 'GET',
-    //headers: misCabeceras,
-    mode: 'no-cors', // <---
-    //cache: 'default'
+let botonR=document.getElementById("razas").addEventListener("click",redireccion);
+let botonM=document.getElementById("monster").addEventListener("click",red);
+function redireccion(){
+    window.location.href="../Razas/razas.html";
 }
 
-const recibirDatos=async()=>{
-    const respuesta=await fetch(url,cabecera)
-   
-    .then(resp=>resp.json())
-    .then(data=>)
-    
-
+function red(){
+    window.location.href="../mounstruos/mounstruos.html";
 }
-
-  recibirDatos()
