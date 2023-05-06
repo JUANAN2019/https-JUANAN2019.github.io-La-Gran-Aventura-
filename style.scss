@@ -17,12 +17,13 @@ body {
     header {
         nav {
 
-            font-size: 1.1rem;
-            min-height: 50px;
+            font-size: 1.3rem;
+            min-height: 75px;
             background-color: rgb(197, 55, 55);
             display: flex;
             justify-content: space-between;
             align-items: center;
+            padding-top: 15px;
 
             .textos {
                 display: flex;
@@ -42,6 +43,9 @@ body {
     }
 
     main {
+        h2{
+            color:rgb(88, 88, 88)
+        }
         .contenido {
             margin: auto;
 
